@@ -7,7 +7,7 @@
 
 n=1
 
-while (( $n < 11 ))
+while (( n < 11 ))
 do
     if [ $n -eq 4 ]
     then
