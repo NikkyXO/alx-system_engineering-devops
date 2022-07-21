@@ -9,11 +9,11 @@ min=1
 
 while [ $hr -lt 13 ]
 do
-    echo "$hr"
+    echo "Hour: $hr"
     while [ $min -lt 60 ]
     do
         echo "$min"
         (( ++min ))
     done
-    (( ++hr ))
+    (( hr++ ))
 done
